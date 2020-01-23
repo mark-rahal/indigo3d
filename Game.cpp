@@ -29,5 +29,6 @@ int Game::run() {
 
 void Game::render() {
 	gfx.clearBackBuffer(255.0f, 0.0f, 0.0f);
+	gfx.drawTriangle();
 	gfx.endFrame();
 }
